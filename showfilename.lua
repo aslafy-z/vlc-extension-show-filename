@@ -1,10 +1,10 @@
--- shows the actual (clock) end time of a file when played. So you have a definitive end time rather than calculating the time
+-- shows the current playing filename when a keystroke is triggered.
 
 function descriptor()
   return {
-    title = "Show Real End Time",
+    title = "Show Filename",
     version = "0.0.1",
-    author = "David Brown",
+    author = "Zadkiel Aslafy",
     capabilities = { "playing-listener" }
   }
 end
